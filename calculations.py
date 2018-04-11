@@ -8,8 +8,8 @@ import numpy as np
 #Referred to numpy references to perform many of these calculations
 #https://docs.scipy.org/doc/numpy-1.12.0/reference/routines.statistics.html
 import statistics as s
-#Stackoverflow Reference:
-#https://stackoverflow.com/questions/10797819/finding-the-mode-of-a-list?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+#Stackoverflow Reference, used to import stats and calculate mode:
+#https://stackoverflow.com/questions/10797819/finding-the-mode-of-a-list
 
 data=np.genfromtxt('data/iris-data.csv', delimiter=',')
 
@@ -101,4 +101,4 @@ print()
 
 print("My program took %.2fs seconds to run" % (time.time() - start_time))
 #Timed my program with reference to the following stackoverflow page
-#https://stackoverflow.com/questions/1557571/how-do-i-get-time-of-a-python-programs-execution?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+#https://stackoverflow.com/questions/1557571/how-do-i-get-time-of-a-python-programs-execution
