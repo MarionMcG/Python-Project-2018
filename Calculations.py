@@ -2,6 +2,9 @@
 
 #Statistical analysis of Iris Dataset 1 
 #Measures of Central Tendency and Spread
+#Program to calculate mean, median, mode, range, interquartile range, 
+#max, min, standard deviation and variance of data for four measurements
+#in the Iris Dataset 
 import time
 start_time = time.time()
 import numpy as np
