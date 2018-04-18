@@ -15,14 +15,16 @@ fourcol= data[:,3]
 
 Corr12 = np.corrcoef(firstcol, seccol) [0, 1]
 a= "{0:.4f}".format(round(Corr12, 4))
-
 print("The correlation coefficient for Sepal Length and Sepal Width is ", a) 
+
 Corr34 = np.corrcoef(thirdcol, fourcol) [0, 1]
 b= "{0:.4f}".format(round(Corr34, 4))
 print("The correlation coefficient for Petal Length and Petal Width is ", b)
+
 Widthcorr = np.corrcoef(firstcol, thirdcol) [0, 1]
 c= "{0:.4f}".format(round(Widthcorr, 4))
 print("The correlation coefficient for Sepal Width and Petal Width is ", c)
+
 Lengthcorr = np.corrcoef(seccol, fourcol) [0, 1]
 d= "{0:.4f}".format(round(Lengthcorr, 4))
 print("The correlation coefficient for Sepal Length and Petal Length is ", d)
@@ -38,15 +40,6 @@ pl.plot(np.unique(firstcol), np.poly1d(np.polyfit(firstcol, seccol, 1))(np.uniqu
 pl.yticks([0, 0.5, 1, 1.5,  2, 2.5, 3, 3.5, 4, 4.5])
 pl.xticks([0, 1, 2, 3,  4, 5, 6, 7])
 pl.show()
-
-pl.scatter(thirdcol,fourcol, s=10, color='dimgrey', marker = '8')
-pl.title('Petal Length vs. Petal Width')
-pl.xlabel('Petal Length')
-pl.ylabel('Petal Width')
-pl.plot(np.unique(thirdcol), np.poly1d(np.polyfit(thirdcol, fourcol, 1))(np.unique(thirdcol)), color = 'salmon')
-pl.xticks([0, 1, 2, 3,  4, 5, 6, 7])
-pl.show()
-
 
 pl.scatter(firstcol, thirdcol, s = 10, color='dimgrey', marker = '8')
 pl.title('Sepal Length vs.Petal Length')
@@ -66,6 +59,13 @@ pl.xticks([0, 0.5, 1, 1.5,  2, 2.5, 3, 3.5, 4, 4.5])
 pl.show()
 
 
+pl.scatter(thirdcol,fourcol, s=10, color='dimgrey', marker = '8')
+pl.title('Petal Length vs. Petal Width')
+pl.xlabel('Petal Length')
+pl.ylabel('Petal Width')
+pl.plot(np.unique(thirdcol), np.poly1d(np.polyfit(thirdcol, fourcol, 1))(np.unique(thirdcol)), color = 'salmon')
+pl.xticks([0, 1, 2, 3,  4, 5, 6, 7])
+pl.show()
 #Referred to the following Youtube videos when customising my scatter diagrams
 #https://www.youtube.com/watch?v=WbTOutpwPHs
 
