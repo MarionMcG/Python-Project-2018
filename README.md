@@ -43,11 +43,11 @@ This program looks at the relationship between the three different species, grap
 
 <table>
  <tr>
-   <td><img src='img/Figure_1.png'></td>
-   <td><img src='img/Figure_1-1.png'></td></tr>
+   <td><img src='img/scatter1.png'></td>
+   <td><img src='img/scatter2.png'></td></tr>
  <tr>
-   <td><img src='img/Figure_1-2.png'></td>
-   <td><img src='img/Figure_1-3.png'></td></tr>
+   <td><img src='img/scatter3.png'></td>
+   <td><img src='img/scatter4.png'></td></tr>
  </table>
  
  
