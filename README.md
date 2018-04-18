@@ -22,7 +22,16 @@ This program looks at the relationship between the four measurements, graphing t
 
 ## My Analysis of the Iris Dataset
 
-
+<table>
+ <tr>
+   <td><img src='img/Figure_1.png'></td>
+   <td><img src='img/Figure_1-1.png'></td></tr>
+ <tr>
+   <td><img src='img/Figure_1-2.png'></td>
+   <td><img src='img/Figure_1-3.png'></td></tr>
+ </table>
+ 
+ 
 ## References
 
 * Hoey, Patrick S. [Statistical Analysis of the Iris Flower Dataset](http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf). University of Massachusetts At Lowell. Accessed on 10/04/2018.
