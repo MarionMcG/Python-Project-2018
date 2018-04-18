@@ -15,7 +15,7 @@ The first program I wrote is designed to perform statistical analysis on each of
 This program looks at the relationship between the four measurements, graphing two variables against one another on a scatter diagram and calculating the correlation co-efficient for each graph. The four graphs in the order in which they appear are:
 
   * Sepal Length vs. Sepal Width
-  * Sepal Width vs. Petal Width 
+  * Sepal Width vs. Petal Width    
   * Sepal Length vs. Petal Length
   * Petal Length vs. Petal Width
 
@@ -33,8 +33,7 @@ This program looks at the relationship between the three different species, grap
 <table>
  <tr>
    <td><img src='img/hist1.png'></td>
-   <td><img src='img/hist2.png'></td></tr>
- <tr>
+   <td><img src='img/hist2.png'></td>
    <td><img src='img/hist3.png'></td>
    <td><img src='img/hist4.png'></td></tr>
  </table>
