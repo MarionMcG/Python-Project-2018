@@ -1,12 +1,11 @@
 # Python-Project-2018
 
+
+## Background Information on the Iris Dataset
 **The Iris Dataset** is a multivariate data set. 
 There are three species included in the Iris set; Iris Setosa, Iris Versicolour and Iris Virginica. 
 Each species has a total of 50 samples measured, leading to 150 samples in total. 
 In each sample, four measurements were taken; sepal length, sepal width, petal length and petal width. There are no missing data points and all the data is measured in centimetres. 
-
-## Background Information on the Iris Dataset
-
 
 ## How to Run my Code
 * **Calculations.py -**
@@ -50,6 +49,14 @@ This program looks at the relationship between the three different species, grap
    <td><img src='img/scatter4.png'></td></tr>
  </table>
  
+ <table>
+ <tr>
+   <td><img src='img/subplot1.png'></td>
+   <td><img src='img/subplot2.png'></td></tr>
+ <tr>
+   <td><img src='img/subplot3.png'></td>
+   <td><img src='img/subplot4.png'></td></tr>
+ </table>
  
 ## References
 
