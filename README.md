@@ -16,11 +16,30 @@ The first program I wrote is designed to perform statistical analysis on each of
 This program looks at the relationship between the four measurements, graphing two variables against one another on a scatter diagram and calculating the correlation co-efficient for each graph. The four graphs in the order in which they appear are:
 
   * Sepal Length vs. Sepal Width
-  * Petal Length vs. Petal Width
   * Sepal Width vs. Petal Width 
   * Sepal Length vs. Petal Length
+  * Petal Length vs. Petal Width
+
+* **Scatter2.py -**
+This program looks at the relationship between the three different species, graphing two variable for each species against one another. Subplots were used to better compare these three different species side by side. 
+
+  * Sepal Length vs. Sepal Width
+  * Sepal Length vs. Petal Length
+  * Sepal Length vs. Petal Width
+  * Petal Length vs. Petal Width
 
 ## My Analysis of the Iris Dataset
+
+
+<table>
+ <tr>
+   <td><img src='img/hist1.png'></td>
+   <td><img src='img/hist2.png'></td></tr>
+ <tr>
+   <td><img src='img/hist3.png'></td>
+   <td><img src='img/hist4.png'></td></tr>
+ </table>
+ 
 
 <table>
  <tr>
