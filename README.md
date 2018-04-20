@@ -50,11 +50,11 @@ This program looks at the relationship between the three different species, grap
  
  <table>
  <tr>
-   <td><img src='img/subplot1.png'></td>
-   <td><img src='img/subplot2.png'></td></tr>
+   <td><img src='img/updtsubplot1.png'></td>
+   <td><img src='img/updtsubplot2.png'></td></tr>
  <tr>
-   <td><img src='img/subplot3.png'></td>
-   <td><img src='img/subplot4.png'></td></tr>
+   <td><img src='img/updtsubplot3.png'></td>
+   <td><img src='img/updtsubplot4.png'></td></tr>
  </table>
  
 ## References
