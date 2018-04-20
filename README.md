@@ -98,7 +98,7 @@ This program looks at the relationship between the three different species, grap
   <td><img src='img/hist8.png'></td></tr>
  </table>
  
-
+**Correlation**
 <table><col width=100%>
  <tr>
   <th>Sepal Length vs. Sepal Width</th>
@@ -118,17 +118,17 @@ This program looks at the relationship between the three different species, grap
  <tr>
   <th>Sepal Length vs. Petal Length </th>
    <td><img src='img/scatter4.png'></td>
-   <td><img src='img/updtsubplot4.png'></td><td> 
+   <td><img src='img/updtsubplot4.png'></td>
    <td>Correlation Co-efficient: 0.8718</td></tr>
    <tr>
   <th>Sepal Length vs. Petal Width </th>
    <td><img src='img/scatter5.png'></td>
-   <td><img src='img/updtsubplot5.png'></td><td> 
+   <td><img src='img/updtsubplot5.png'></td>
    <td>Correlation Co-efficient: 0.8180</td></tr>
    <tr>
   <th>Sepal Width vs. Petal Length </th>
    <td><img src='img/scatter6.png'></td>
-   <td><img src='img/updtsubplot6.png'></td><td> 
+   <td><img src='img/updtsubplot6.png'></td>
    <td>Correlation Co-efficient: -0.4205</td></tr>
 
 
