@@ -40,7 +40,7 @@ This program looks at the relationship between the three different species, grap
 
 ## My Analysis of the Iris Dataset
 
-**Central Tendency and Distribution
+**Central Tendency and Distribution**
 <table>
  <tr>
   <th>Sepal Length</th>
@@ -101,26 +101,26 @@ This program looks at the relationship between the three different species, grap
 
 <table>
  <tr>
+  <th>Sepal Length vs. Sepal Width</th>
    <td><img src='img/scatter1.png'></td>
-   <td><img src='img/scatter2.png'></td></tr>
+   <td><img src='img/updtsubplot1.png'></td></tr>
  <tr>
-   <td><img src='img/scatter3.png'></td>
-   <td><img src='img/scatter4.png'></td></tr>
- </table>
- 
- <table>
+  <th> </th>
+   <td></td>
+   <td></td></tr>
  <tr>
-   <td><img src='img/updtsubplot1.png'></td>
-   <td><img src='img/updtsubplot2.png'></td></tr>
+  <th> </th>
+   <td></td>
+   <td></td></tr>
  <tr>
-   <td><img src='img/updtsubplot3.png'></td>
-   <td><img src='img/updtsubplot4.png'></td></tr>
+  <th> </th>
+   <td></td>
+   <td></td></tr>
  </table>
  
 ## References
 
+* Fisher, R.A. [The use of multiple measurements in taxonomic problems.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x)Annals of Eugenics. 7 (2): 179–188. (1936) Accessed on 10/04/2018.
 * Hoey, Patrick S. [Statistical Analysis of the Iris Flower Dataset](http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf). University of Massachusetts At Lowell. Accessed on 10/04/2018.
-
-*[The Iris flower data set] (https://en.wikipedia.org/wiki/Iris_flower_data_set), Wikipedia. Accessed on 10/04/2018.
-
+*[The Iris flower data set](https://en.wikipedia.org/wiki/Iris_flower_data_set), Wikipedia. Accessed on 10/04/2018.
 * 
