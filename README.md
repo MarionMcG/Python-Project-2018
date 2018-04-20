@@ -99,7 +99,7 @@ This program looks at the relationship between the three different species, grap
  </table>
  
 
-<table>
+<table><col width=100%>
  <tr>
   <th>Sepal Length vs. Sepal Width</th>
    <td><img src='img/scatter1.png'></td>
@@ -118,7 +118,7 @@ This program looks at the relationship between the three different species, grap
  <tr>
   <th>Sepal Length vs. Petal Length </th>
    <td><img src='img/scatter3.png'></td>
-   <td><img src='img/updtsubplot3.png'></td><td> 
+   <td><img src='img/updtsubplot3.png'></td>
    <td>Correlation Co=efficient: -0.3565</td></tr>
  </table>
  
