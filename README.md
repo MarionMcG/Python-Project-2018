@@ -11,9 +11,9 @@ In each sample, four measurements were taken; sepal length, sepal width, petal l
 
 My aim in analyzing the Iris Dataset is to determine if there is any relationship between the four different measurements and the three different species. I am looking for nice patterns that may indicate a relationship between variables, or distinguish between species. 
 
-I intend to calculate various measures of central tendency and spread within the four data sets: sepal length, sepal width, petal length and petal width. I also plan to compare pairs of measurements on scatter diagrams to determine if there is any relationship between them. Calculating the correlation coefficient would give me a definitive answer without a graphical representation. However I hope to examine the measurements by species, and get a better understanding of how the relationship between variables differs, or not, across species. This comparison would be best done on a scatter diagram.  
+I intend to calculate various measures of central tendency and spread within the four data sets: sepal length, sepal width, petal length and petal width. I also plan to compare pairs of measurements on scatter diagrams to determine if there is any relationship between them. Calculating the correlation coefficient would give me a definitive answer without a graphical representation. However I hope to get a better understanding of how the relationship between variables differs, or not, across species. This comparison would be best done on scatter diagrams.  
 
-As this is my first statistical analysis project, I did not have any conrete goals in mind, beyond determining correlation. As I worked my way through this project, I went on several tangents that gave me a better understanding of the limitations of my initial plan. 
+As this is my first statistical analysis project, I did not have any concrete goals in mind, beyond determining correlation. As I worked my way through this project, I went on several tangents that gave me a better understanding of the limitations of my initial plan. 
 
 **Tangents**
 
@@ -103,19 +103,23 @@ This program looks at the relationship between the three different species, grap
  <tr>
   <th>Sepal Length vs. Sepal Width</th>
    <td><img src='img/scatter1.png'></td>
-   <td><img src='img/updtsubplot1.png'></td></tr>
+   <td><img src='img/updtsubplot1.png'></td>
+   <td>Correlation Co=efficient: -0.1094</td></tr>
  <tr>
-  <th> </th>
-   <td></td>
-   <td></td></tr>
+  <th>Petal Length vs.Petal Width</th>
+   <td><img src='img/scatter2.png'></td>
+   <td><img src='img/updtsubplot2.png'></td>
+    <td>Correlation Co=efficient: 0.9628</td></tr>
  <tr>
-  <th> </th>
+  <th>Sepal Width vs. Petal Width</th>
+   <td><img src='img/scatter4.png'></td>
    <td></td>
-   <td></td></tr>
+   <td>Correlation Co=efficient: 0.8718</td></tr>
  <tr>
-  <th> </th>
-   <td></td>
-   <td></td></tr>
+  <th>Sepal Length vs. Petal Length </th>
+   <td><img src='img/scatter3.png'></td>
+   <td><img src='img/updtsubplot3.png'></td><td> 
+   <td>Correlation Co=efficient: -0.3565</td></tr>
  </table>
  
 ## References

@@ -9,6 +9,8 @@ seccol =  data[:,1]
 thirdcol= data[:,2]
 fourcol= data[:,3]
 
+
+
 #Graphing each measurement as a histogram to get an indication of their distribution
 pl.hist(data[:,0], edgecolor='k', linewidth=1.2, color ='lightcoral')
 #Refered to this webpage to get a border line around the bars of the histogram.
@@ -44,6 +46,7 @@ pl.title('Sepal Length',  fontsize = '20')
 pl.xlabel('Length in cm')
 pl.ylabel('Number')
 pl.xticks([0,2, 4,6, 8, 10])
+pl.yticks([0, 5, 10, 15, 20, 25, 30, 35, 40])
 pl.show()
 
 
@@ -52,6 +55,7 @@ pl.title('Sepal Width',  fontsize = '20')
 pl.xlabel('Length in cm')
 pl.ylabel('Number')
 pl.xticks([0,2, 4,6, 8, 10])
+pl.yticks([0, 5, 10, 15, 20, 25, 30, 35, 40])
 pl.show()
 
 pl.hist(data[:,2], edgecolor='k', linewidth=1.2, color ='lightgreen')
@@ -59,6 +63,7 @@ pl.title('Petal Length',  fontsize = '20')
 pl.xlabel('Length in cm')
 pl.ylabel('Number')
 pl.xticks([0,2, 4,6, 8, 10])
+pl.yticks([0, 5, 10, 15, 20, 25, 30, 35, 40])
 pl.show()
 
 pl.hist(data[:,3], edgecolor='k', linewidth=1.2, color ='lightskyblue')
@@ -66,4 +71,5 @@ pl.title('Petal Width',  fontsize = '20')
 pl.xlabel('Length in cm')
 pl.ylabel('Number')
 pl.xticks([0,2, 4,6, 8, 10])
+pl.yticks([0, 5, 10, 15, 20, 25, 30, 35, 40])
 pl.show()
