@@ -99,7 +99,7 @@ This program looks at the relationship between the three different species, grap
  </table>
  
 
-<table>
+<table><col width=100%>
  <tr>
   <th>Sepal Length vs. Sepal Width</th>
    <td><img src='img/scatter1.png'></td>
