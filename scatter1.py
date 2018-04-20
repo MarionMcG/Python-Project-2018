@@ -1,7 +1,10 @@
 #Marion McGowan, 16/04/2018
 #Graphical Analysis of Iris Dataset
-#This program graphs Sepal Length against Sepal Wisth, and Petal Length against Petal Width, calculating the Correlation Coefficient for both.
-#It also graphs Sepal Length against the Petal Length and Sepal Width against Petal Width, calculating the Correlation Coefficient for both.
+
+#This program graphs Sepal Length against Sepal Wisth, and Petal Length against Petal Width, 
+# calculating the Correlation Coefficient for both.
+#It also graphs Sepal Length against the Petal Length and Sepal Width against Petal Width,
+# calculating the Correlation Coefficient for both.
 
 import numpy as np
 import matplotlib.pyplot as pl
@@ -13,6 +16,7 @@ seccol =  data[:,1]
 thirdcol= data[:,2]
 fourcol= data[:,3]
 
+#Finding the Correlation Coefficent
 Corr12 = np.corrcoef(firstcol, seccol) [0, 1]
 a= "{0:.4f}".format(round(Corr12, 4))
 print("The correlation coefficient for Sepal Length and Sepal Width is ", a) 
@@ -29,8 +33,7 @@ Lengthcorr = np.corrcoef(seccol, fourcol) [0, 1]
 d= "{0:.4f}".format(round(Lengthcorr, 4))
 print("The correlation coefficient for Sepal Length and Petal Length is ", d)
 
-
-
+#Plotting the scatter diagrams with their lines of best fit will show us a graphical representation of correlation
 pl.scatter(firstcol, seccol, s = 10, color = 'dimgrey', marker='8')
 pl.title('Sepal Length vs. Sepal Width')
 pl.xlabel('Sepal Length')
@@ -57,7 +60,6 @@ pl.ylabel('Petal Width')
 pl.plot(np.unique(seccol), np.poly1d(np.polyfit(seccol, fourcol, 1))(np.unique(seccol)), color = 'salmon')
 pl.xticks([0, 0.5, 1, 1.5,  2, 2.5, 3, 3.5, 4, 4.5])
 pl.show()
-
 
 pl.scatter(thirdcol,fourcol, s=10, color='dimgrey', marker = '8')
 pl.title('Petal Length vs. Petal Width')
