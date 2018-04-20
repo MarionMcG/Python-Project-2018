@@ -104,22 +104,35 @@ This program looks at the relationship between the three different species, grap
   <th>Sepal Length vs. Sepal Width</th>
    <td><img src='img/scatter1.png'></td>
    <td><img src='img/updtsubplot1.png'></td>
-   <td>Correlation Co=efficient: -0.1094</td></tr>
+   <td>Correlation Co-efficient: -0.1094</td></tr>
  <tr>
   <th>Petal Length vs.Petal Width</th>
    <td><img src='img/scatter2.png'></td>
    <td><img src='img/updtsubplot2.png'></td>
-    <td>Correlation Co=efficient: 0.9628</td></tr>
+    <td>Correlation Co-efficient: 0.9628</td></tr>
  <tr>
   <th>Sepal Width vs. Petal Width</th>
-   <td><img src='img/scatter4.png'></td>
-   <td></td>
-   <td>Correlation Co=efficient: 0.8718</td></tr>
+   <td><img src='img/scatter3.png'></td>
+   <td><img src='img/updtsubplot3.png'></td>
+   <td>Correlation Co-efficient: -0.3565</td></tr>
  <tr>
   <th>Sepal Length vs. Petal Length </th>
-   <td><img src='img/scatter3.png'></td>
-   <td><img src='img/updtsubplot3.png'></td><td> 
-   <td>Correlation Co=efficient: -0.3565</td></tr>
+   <td><img src='img/scatter4.png'></td>
+   <td><img src='img/updtsubplot4.png'></td><td> 
+   <td>Correlation Co-efficient: 0.8718</td></tr>
+   <tr>
+  <th>Sepal Length vs. Petal Width </th>
+   <td><img src='img/scatter5.png'></td>
+   <td><img src='img/updtsubplot5.png'></td><td> 
+   <td>Correlation Co-efficient: 0.8180</td></tr>
+   <tr>
+  <th>Sepal Width vs. Petal Length </th>
+   <td><img src='img/scatter6.png'></td>
+   <td><img src='img/updtsubplot6.png'></td><td> 
+   <td>Correlation Co-efficient: -0.4205</td></tr>
+
+
+
  </table>
  
 ## References
