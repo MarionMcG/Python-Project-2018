@@ -104,32 +104,50 @@ This program looks at the relationship between the three different species, grap
   <th>Sepal Length vs. Sepal Width</th>
    <td><img src='img/scatter1.png'></td>
    <td><img src='img/updtsubplot1.png'></td>
-   <td>Correlation Co-efficient: -0.1094</td></tr>
+   <td>Slope of the line of best fit: -0.0573<br>
+      Correlation Co-efficient: -0.1094<br>
+      R&sup2 Value: 0.012<br>
+      P Value: 0.1827652153</td></tr>
  <tr>
   <th>Petal Length vs.Petal Width</th>
    <td><img src='img/scatter2.png'></td>
    <td><img src='img/updtsubplot2.png'></td>
-    <td>Correlation Co-efficient: 0.9628</td></tr>
+    <td>Slope of the line of best fit: 0.4164<br>
+      Correlation Co-efficient: 0.9628<br>
+      R&sup2 Value: 0.9269<br>
+      P Value: 0.0  (rounded to 10dp)</td></tr>
  <tr>
   <th>Sepal Width vs. Petal Width</th>
    <td><img src='img/scatter3.png'></td>
    <td><img src='img/updtsubplot3.png'></td>
-   <td>Correlation Co-efficient: -0.3565</td></tr>
+   <td>Slope of the line of best fit: -0.6275<br>
+      Correlation Co-efficient: -0.3565<br>
+      R&sup2 Value: 0.1271<br>
+      P Value: 0.0000075239</td></tr>
  <tr>
   <th>Sepal Length vs. Petal Length </th>
    <td><img src='img/scatter4.png'></td>
    <td><img src='img/updtsubplot4.png'></td><td> 
-   <td>Correlation Co-efficient: 0.8718</td></tr>
+   <td>Slope of the line of best fit: 1.8575<br>
+      Correlation Co-efficient: 0.8718<br>
+      R&sup2 Value: 0.76<br>
+      P Value: 0.0 (rounded to 10dp)</td></tr>
    <tr>
   <th>Sepal Length vs. Petal Width </th>
    <td><img src='img/scatter5.png'></td>
    <td><img src='img/updtsubplot5.png'></td><td> 
-   <td>Correlation Co-efficient: 0.8180</td></tr>
+   <td>Slope of the line of best fit: 0.7538<br>
+      Correlation Co-efficient: 0.818<br>
+      R&sup2 Value: 0.669<br>
+      P Value: 0.0 (rounded to 10dp)</td></tr>
    <tr>
   <th>Sepal Width vs. Petal Length </th>
    <td><img src='img/scatter6.png'></td>
    <td><img src='img/updtsubplot6.png'></td><td> 
-   <td>Correlation Co-efficient: -0.4205</td></tr>
+   <td>Slope of the line of best fit: -1.7112<br>
+      Correlation Co-efficient: -0.4205<br>
+      R&sup2 Value: 0.1768<br>
+      P Value: 0.0000000843</td></tr>
 
 
 
