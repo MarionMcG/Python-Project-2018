@@ -128,7 +128,7 @@ This program looks at the relationship between the three different species, grap
   <th>Sepal Length vs. Petal Length </th>
    <td><img src='img/scatter4.png'></td>
    <td><img src='img/updtsubplot4.png'></td>
-   <td>Slope: 1.8575<br>
+   <td>Slope of the line of best fit: 1.8575<br>
     Correlation Coefficient: 0.8718<br>
     R-squared Value: 0.76<br>
     P Value: 0.0 (rounded to 10dp)</td></tr>
@@ -144,13 +144,10 @@ This program looks at the relationship between the three different species, grap
   <th>Sepal Width vs. Petal Length </th>
    <td><img src='img/scatter6.png'></td>
    <td><img src='img/updtsubplot6.png'></td>
-   <td>Slopeof the line of best fit: -1.7112<br>
+   <td>Slope of the line of best fit: -1.7112<br>
     Correlation Coefficient: -0.4205<br>
     R-squared Value: 0.1768<br>
     P Value: 0.0000000843</td></tr>
-
-
-
  </table>
  
 ## References
