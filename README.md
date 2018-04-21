@@ -1,6 +1,5 @@
 # Python-Project-2018
 
-
 ## Background Information on the Iris Dataset
 **The Iris Dataset** is a multivariate data set. 
 There are three species included in the Iris set; Iris Setosa, Iris Versicolour and Iris Virginica. 
@@ -11,32 +10,31 @@ In each sample, four measurements were taken; sepal length, sepal width, petal l
 
 My aim in analyzing the Iris Dataset is to determine if there is any relationship between the four different measurements and the three different species. I am looking for nice patterns that may indicate a relationship between variables, or distinguish between species. 
 
-I intend to calculate various measures of central tendency and spread within the four data sets: sepal length, sepal width, petal length and petal width. I also plan to compare pairs of measurements on scatter diagrams to determine if there is any relationship between them. Calculating the correlation coefficient would give me a definitive answer without a graphical representation. However I hope to get a better understanding of how the relationship between variables differs, or not, across species. This comparison would be best done on scatter diagrams.  
+I intend to calculate various measures of central tendency and spread for the four measurements in my dataset. I also plan to compare pairs of measurements on scatter diagrams to determine if there is any relationship between them. Calculating the correlation coefficient would give me a definitive answer without a graphical representation. However I hope to get a better understanding of how the relationship between variables differs, or not, across species. This comparison would be best done on scatter diagrams.  
 
-As this is my first statistical analysis project, I did not have any concrete goals in mind, beyond determining correlation. As I worked my way through this project, I went on several tangents that gave me a better understanding of the limitations of my initial plan. 
+As this is my first statistical analysis project, I did not have any concrete goals in mind, beyond determining correlation. As I worked my way through this project, I understood the limitations of my initial plan and expanded upon it. 
 
 **Tangents**
 
 In the process of my analysis, my results often meant I reconsidered my approach to get the most accurate view of my data. 
-* After running my program Calculations.py, I have a number of different measures for the average and spread but could not get a good idea of the distribution or how these values related to one another. 
-I placed all 150 data points for each measurement into a histogram to get a graph of the distribution of data. I then viewed these distributions along the same intervals of the x and y axes.
+
+* After running my program Calculations.py, I realised I needed a graphical representation of distribution for the four measurements. I placed all 150 data points for each measurement into a histogram to get a graph of the distribution of data. I then viewed these distributions along the same intervals of the x and y axes.
 
 * After running my program Scatter.py, it was clear that petal length and petal width correlate strongly. I began to consider if it would be possible to get an equation for length with respect to width. 
 
-* After running my program Scatter2.py, it was clear that the relationship between petal length and petal width was also a good indicator of species. 
-
 ## How to Run my Code
-* **Calculations.py -**
-The first program I wrote is designed to perform statistical analysis on each of the four measurements in the Iris Dataset. It will list the minimum value, maximum value, range, interquartile range, mean, median, mode, standard deviation and variance for these measurements. 
+Clone or download this repository to the desired directory of your machine. You can now open each program in Visual Studio Code or run from command prompt, if and only if, Python is in your PATH. 
 
-* **Hist.py -**
+If using Visual Studio Code:
+Open folder. Open file. Open Integrated Terminal using CTRL '. Integrated terminal may not be open in the relevant directory. In VS Explorer, rightclick on a file in the required folder, and open in command prompt. Not you can run a program called NAME.py, by typing python NAME.py in the integrated terminal and press Enter. 
 
-* **Scatter1.py -**
-This program looks at the relationship between the four measurements, graphing two variables against one another on a scatter diagram and calculating the correlation co-efficient for each graph. 
+If you're using Command Prompt:
+Navigate to the relevant folder using cd command, and run dir to get a list of files in the folder. Any python files in this folder can now be run, by typing python NAME.py and pressing Enter. 
 
-
-* **Scatter2.py -**
-This program looks at the relationship between the three different species, graphing two variable for each species against one another. Subplots were used to better compare these three different species side by side. 
+* **Calculations.py -** This program will list calculations in your application. 
+* **Hist.py -** This program will display 8 graphs in total. The first graph wil open in an individual window which you must close to move onto the next. Please ensure you close the final window to exit the program.
+* **Scatter1.py -** When running this program, the relevant calculations will appear in your application when the image of the corresponding scatter diagram opens. Please close that window to move onto the next scatter diagram and it's calculations. Again please ensure you close the final window before running another program.
+* **Scatter2.py -** This program displays 6 graphs. Follow the same procedure as with previous programs. 
 
 ## My Analysis of the Iris Dataset
 
@@ -149,10 +147,9 @@ This program looks at the relationship between the three different species, grap
      <b>R&sup2 Value:</b> 0.1768<br>
      <b>P Value:</b> 0.0000000843</td></tr>
  </table>
- 
-## References
+ <h3> Summary</h3>
 
+## References
 * Fisher, R.A. [The use of multiple measurements in taxonomic problems.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x)Annals of Eugenics. 7 (2): 179–188. (1936) Accessed on 10/04/2018.
 * Hoey, Patrick S. [Statistical Analysis of the Iris Flower Dataset](http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf). University of Massachusetts At Lowell. Accessed on 10/04/2018.
 * [The Iris flower data set](https://en.wikipedia.org/wiki/Iris_flower_data_set), Wikipedia. Accessed on 10/04/2018.
-* 
