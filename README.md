@@ -7,20 +7,21 @@ Each species has a total of 50 samples measured, leading to 150 samples in total
 In each sample, four measurements were taken; sepal length, sepal width, petal length and petal width. There are no missing data points and all the data is measured in centimetres. 
 
 ## Project Plan
-
 My aim in analyzing the Iris Dataset is to determine if there is any relationship between the four different measurements and the three different species. I am looking for nice patterns that may indicate a relationship between variables, or distinguish between species. 
 
-I intend to calculate various measures of central tendency and spread for the four measurements in my dataset. I also plan to compare pairs of measurements on scatter diagrams to determine if there is any relationship between them. Calculating the correlation coefficient would give me a definitive answer without a graphical representation. However I hope to get a better understanding of how the relationship between variables differs, or not, across species. This comparison would be best done on scatter diagrams.  
+I intend to:
+  * Calculate various measures of central tendency and spread for the four measurements in my dataset.
+  * Compare pairs of measurements on scatter diagrams to determine if there is any relationship between them, and calculating the correlation coefficient. 
+  * Compare pairs of measurements on scatter diagrams, differentiated by species. 
 
 As this is my first statistical analysis project, I did not have any concrete goals in mind, beyond determining correlation. As I worked my way through this project, I understood the limitations of my initial plan and expanded upon it. 
 
-**Tangents**
-
-In the process of my analysis, my results often meant I reconsidered my approach to get the most accurate view of my data. 
-
-* After running my program Calculations.py, I realised I needed a graphical representation of distribution for the four measurements. I placed all 150 data points for each measurement into a histogram to get a graph of the distribution of data. I then viewed these distributions along the same intervals of the x and y axes.
-
-* After running my program Scatter.py, it was clear that petal length and petal width correlate strongly. I began to consider if it would be possible to get an equation for length with respect to width. 
+* After running my program Calculations.py, I realised I needed a graphical representation of distribution for the four measurements. 
+  * I placed data for each measurement into a histogram to get a graph of the distribution. 
+  * I then viewed these distributions along the same intervals of the x and y axes.
+* After running my program Scatter.py, it was clear that petal length and petal width correlate strongly. I began to consider if it would be possible to get an equation for length with respect to width. So,
+  * I calculated r&sup2 and p values to get a bettter indication of correlation. 
+  * I got the slope of the line of best fit, and considered using the slope y-intercept to find its equation. 
 
 ## How to Run my Code
 Clone or download this repository to the desired directory of your machine. You can now open each program in Visual Studio Code or run from command prompt, if and only if, Python is in your PATH. 
@@ -31,14 +32,16 @@ Open folder. Open file. Open Integrated Terminal using CTRL '. Integrated termin
 If you're using Command Prompt:
 Navigate to the relevant folder using cd command, and run dir to get a list of files in the folder. Any python files in this folder can now be run, by typing python NAME.py and pressing Enter. 
 
-* **Calculations.py -** This program will list calculations in your application. 
-* **Hist.py -** This program will display 8 graphs in total. The first graph wil open in an individual window which you must close to move onto the next. Please ensure you close the final window to exit the program.
-* **Scatter1.py -** When running this program, the relevant calculations will appear in your application when the image of the corresponding scatter diagram opens. Please close that window to move onto the next scatter diagram and it's calculations. Again please ensure you close the final window before running another program.
-* **Scatter2.py -** This program displays 6 graphs. Follow the same procedure as with previous programs. 
+    <i>Note: Any calculations will be outputted in your application. Graphical representation of the data will open in individual windows, which you must close to move onto the next graph. Please ensure you close the final window to complete the program. </i>
+
+* **Calculations.py -** Calculates the max value, min value, range, interquartile range, mean, median, mode, standard deviation and variance for each of the four measurements in the Iris Dataset. This program will list calculations in your application. 
+* **Hist.py -** This program will display the distribution of the four measurements in the Iris Dataset. There are 8 graphs in total. Graphs 5 - 8 display this data along the same intervals of the x and y axes. 
+* **Scatter1.py -** This program displays 6 scatter graphs combining the measurements from the Iris Dataset.On each graph the line of best fit is also plotted. It also prints calculations related to correlation: the slope of the line of best fit, the correlation co-efficient, r&sup2 value, and p value. When running this program, the relevant calculations will appear in your application when the image of the corresponding scatter diagram opens. Please close that window to move onto the next scatter diagram and it's calculations.
+* **Scatter2.py -** This program displays the same 6 scatter diagrams as scatter1.py, but these are colored to distinguish between species. 
 
 ## My Analysis of the Iris Dataset
 
-**Central Tendency and Distribution**
+<h3>Central Tendency and Distribution</h3>
 <table>
  <tr>
   <th>Sepal Length</th>
@@ -52,23 +55,23 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
    <td><img src='img/hist4.png'></td></tr>
  <tr>
   <td> Minimum Value:  4.3<br> 
-     Maximum Value:  7.9<br> 
-     Range:  3.6<br>
-     Interquartile Range:  1.3<br> 
-     Mean: 5.8433<br>
-     Median:  5.8<br> 
-     Mode:  5.0 <br> 
-     Standard Deviation:  0.8253<br>   
-     Variance:  0.6811</td>
+  Maximum Value:  7.9<br> 
+  Range:  3.6<br>
+  Interquartile Range:  1.3<br> 
+  Mean: 5.8433<br>
+  Median:  5.8<br> 
+  Mode:  5.0 <br> 
+  Standard Deviation:  0.8253<br>   
+  Variance:  0.6811</td>
   <td> Minimum Value:  2.0<br>
-     Maximum Value:  4.4<br>
-     Range:  2.4<br>
-     Interquartile Range:  0.5<br>
-     Mean: 3.0540<br> 
-     Median: 3.0<br> 
-     Mode:  3.0<br>
-     Standard Deviation:  0.4321<br>   
-     Variance:  0.1868<br></td> 
+  Maximum Value:  4.4<br>
+  Range:  2.4<br>
+  Interquartile Range:  0.5<br>
+  Mean: 3.0540<br> 
+  Median: 3.0<br> 
+  Mode:  3.0<br>
+  Standard Deviation:  0.4321<br>   
+  Variance:  0.1868<br></td> 
 <td>
   Minimum Value:  1.0<br>
   Maximum Value:  6.9<br>
@@ -96,7 +99,7 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
   <td><img src='img/hist8.png'></td></tr>
  </table>
  
-**Correlation**
+<h3>Correlation</h3>
 <table><col width=100%>
  <tr>
   <th>Sepal Length vs. Sepal Width</th>
