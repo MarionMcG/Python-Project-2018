@@ -25,18 +25,21 @@ pl.title('Sepal Length vs. Sepal Width')
 pl.xlabel('Sepal Length')
 pl.ylabel('Sepal Width')
 #Plotting the line of best fit
-pl.plot(np.unique(firstcol), np.poly1d(np.polyfit(firstcol, seccol, 1))(np.unique(firstcol)), color = 'salmon')
-#Code from https://stackoverflow.com/questions/22239691/code-for-line-of-best-fit-of-a-scatter-plot-in-python
-#Determining Correlations, calculating r value, r squared, m(slope) and p value
 slope, intercept, r_value, p_value, slope_std_error = stats.linregress(firstcol, seccol)
+pl.plot(firstcol, intercept + slope*(firstcol), 'r')
+#Determining Correlations, calculating r value, r squared, m(slope) and p value
 print ("Slope: " + str(np.round(slope, 4)))
+print ("Y-intercept:" + str(intercept))
 print ("Correlation Coefficient: "+ str(np.round(r_value, 4)))
 y=np.round((r_value**2), 4)
 print ("R-squared Value: " + str(y))
 print ("P Value: " + str(p_value))
 z=np.round((p_value), 10)
 print ("Rounded P Value: " + str(z))
-#https://stackoverflow.com/questions/24130922/how-to-print-equation-of-line-using-scipy-stats
+#Referenes for Scipy.Stats
+#I switched from numpy to scipy.stats, because coming from Maths background I find scipy.stats more intuitive.
+#https://stackoverflow.com/questions/24130922/how-to-print-equation-of-line-using-scipy-stats]
+#https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.stats.linregress.html
 pl.show()
 print()
 
@@ -48,16 +51,18 @@ pl.title('Petal Length vs. Petal Width')
 pl.xlabel('Petal Length')
 pl.ylabel('Petal Width')
 #Plotting the line of best fit
-pl.plot(np.unique(thirdcol), np.poly1d(np.polyfit(thirdcol, fourcol, 1))(np.unique(thirdcol)), color = 'salmon')
-#Determining Correlations: calculating r value, r squared, m(slope) and p value
 slope, intercept, r_value, p_value, slope_std_error = stats.linregress(thirdcol, fourcol)
+pl.plot(thirdcol, intercept + slope*(thirdcol), 'r')
+#Determining Correlations: calculating r value, r squared, m(slope) and p value
 print ("Slope: " + str(np.round(slope, 4)))
+print ("Y-intercept:" + str(intercept))
 print ("Correlation Coefficient: "+ str(np.round(r_value, 4)))
 y=np.round((r_value**2), 4)
 print ("R-squared Value: " + str(y))
 print ("P Value: " + str(p_value))
 z=np.round((p_value), 10)
 print ("Rounded P Value: " + str(z))
+
 pl.show()
 print()
 
@@ -68,10 +73,11 @@ pl.title('Sepal Width vs.Petal Width')
 pl.xlabel('Sepal Width')
 pl.ylabel('Petal Width')
 #Plotting the line of best fit
-pl.plot(np.unique(seccol), np.poly1d(np.polyfit(seccol, fourcol, 1))(np.unique(seccol)), color = 'salmon')
-#Determining Correlations: calculating r value, r squared, m(slope) and p value
 slope, intercept, r_value, p_value, slope_std_error = stats.linregress(seccol, fourcol)
+pl.plot(seccol, intercept + slope*(seccol), 'r')
+#Determining Correlations: calculating r value, r squared, m(slope) and p value
 print ("Slope: " + str(np.round(slope, 4)))
+print ("Y-intercept:" + str(intercept))
 print ("Correlation Coefficient: "+ str(np.round(r_value, 4)))
 y=np.round((r_value**2), 4)
 print ("R-squared Value: " + str(y))
@@ -88,10 +94,11 @@ pl.title('Sepal Length vs.Petal Length')
 pl.xlabel('Sepal Length')
 pl.ylabel('Petal Length')
 #Plotting the line of best fit
-pl.plot(np.unique(firstcol), np.poly1d(np.polyfit(firstcol, thirdcol, 1))(np.unique(firstcol)), color = 'salmon')
-#Determining Correlations: calculating r value, r squared, m(slope) and p value
 slope, intercept, r_value, p_value, slope_std_error = stats.linregress(firstcol, thirdcol)
+pl.plot(firstcol, intercept + slope*(firstcol), 'r')
+#Determining Correlations: calculating r value, r squared, m(slope) and p value
 print ("Slope: " + str(np.round(slope, 4)))
+print ("Y-intercept:" + str(intercept))
 print ("Correlation Coefficient: "+ str(np.round(r_value, 4)))
 y=np.round((r_value**2), 4)
 print ("R-squared Value: " + str(y))
@@ -108,10 +115,11 @@ pl.title('Sepal Length vs.Petal Width')
 pl.xlabel('Sepal Length')
 pl.ylabel('Petal Width')
 #Plotting the line of best fit
-pl.plot(np.unique(firstcol), np.poly1d(np.polyfit(firstcol, fourcol, 1))(np.unique(firstcol)), color = 'salmon')
-#Determining Correlations: calculating r value, r squared, m(slope) and p value
 slope, intercept, r_value, p_value, slope_std_error = stats.linregress(firstcol, fourcol)
+pl.plot(firstcol, intercept + slope*(firstcol), 'r')
+#Determining Correlations: calculating r value, r squared, m(slope) and p value
 print ("Slope: " + str(np.round(slope, 4)))
+print ("Y-intercept:" + str(intercept))
 print ("Correlation Coefficient: "+ str(np.round(r_value, 4)))
 y=np.round((r_value**2), 4)
 print ("R-squared Value: " + str(y))
@@ -127,11 +135,12 @@ pl.scatter(seccol, thirdcol, s = 20, color='dimgrey', marker = '8')
 pl.title('Sepal Width vs.Petal Length')
 pl.xlabel('Sepal Width')
 pl.ylabel('Petal Length')
-#Plotting the line of best fit
-pl.plot(np.unique(seccol), np.poly1d(np.polyfit(seccol, thirdcol, 1))(np.unique(seccol)), color = 'salmon')
-#Determining Correlations: calculating r value, r squared, m(slope) and p value
+#Plotting the line of best fit:
 slope, intercept, r_value, p_value, slope_std_error = stats.linregress(seccol, thirdcol)
+pl.plot(seccol, intercept + slope*(seccol), 'r')
+#Determining Correlations: calculating r value, r squared, m(slope) and p value
 print ("Slope: " + str(np.round(slope, 4)))
+print ("Y-intercept:" + str(intercept))
 print ("Correlation Coefficient: "+ str(np.round(r_value, 4)))
 y=np.round((r_value**2), 4)
 print ("R-squared Value: " + str(y))

@@ -152,6 +152,10 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
  </table>
  <h3> Summary</h3>
 
+* The most statistiallly significant correlation is between Petal Length and Petal width measurements. These measurements provide the highest correlation coefficient (0.9628) and the highest r-squared value (0.9269). The p-value, also indicates that the probability of no relationship between these variables is 5.78 x 10^-86, which I rounded to zero above. 
+
+* P-values indicate that all scatter diagrams except Sepal Length and Sepal Width, have a statistically significant realtionship (p < 0.05).
+
 ## References
 * Fisher, R.A. [The use of multiple measurements in taxonomic problems.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x)Annals of Eugenics. 7 (2): 179–188. (1936) Accessed on 10/04/2018.
 * Hoey, Patrick S. [Statistical Analysis of the Iris Flower Dataset](http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf). University of Massachusetts At Lowell. Accessed on 10/04/2018.
