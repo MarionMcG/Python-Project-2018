@@ -20,7 +20,7 @@ As this is my first statistical analysis project, I did not have any concrete go
   * I placed data for each measurement into a histogram to get a graph of the distribution. 
   * I then viewed these distributions along the same intervals of the x and y axes.
 * After running my program Scatter.py, it was clear that petal length and petal width correlate strongly. I began to consider if it would be possible to get an equation for length with respect to width. So,
-  * I calculated r&sup2 and p values to get a bettter indication of correlation. 
+  * I calculated r squared and p values to get a bettter indication of correlation. 
   * I got the slope of the line of best fit, and considered using the slope y-intercept to find its equation. 
 
 ## How to Run my Code
@@ -36,7 +36,7 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
 
 * **Calculations.py -** Calculates the max value, min value, range, interquartile range, mean, median, mode, standard deviation and variance for each of the four measurements in the Iris Dataset. This program will list calculations in your application. 
 * **Hist.py -** This program will display the distribution of the four measurements in the Iris Dataset. There are 8 graphs in total. Graphs 5 - 8 display this data along the same intervals of the x and y axes. 
-* **Scatter1.py -** This program displays 6 scatter graphs combining the measurements from the Iris Dataset.On each graph the line of best fit is also plotted. It also prints calculations related to correlation: the slope of the line of best fit, the correlation co-efficient, r&sup2 value, and p value. When running this program, the relevant calculations will appear in your application when the image of the corresponding scatter diagram opens. Please close that window to move onto the next scatter diagram and it's calculations.
+* **Scatter1.py -** This program displays 6 scatter graphs combining the measurements from the Iris Dataset.On each graph the line of best fit is also plotted. It also prints calculations related to correlation: the slope of the line of best fit, the correlation co-efficient, r squared value, and p value. When running this program, the relevant calculations will appear in your application when the image of the corresponding scatter diagram opens. Please close that window to move onto the next scatter diagram and it's calculations.
 * **Scatter2.py -** This program displays the same 6 scatter diagrams as scatter1.py, but these are colored to distinguish between species. 
 
 ## My Analysis of the Iris Dataset
