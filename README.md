@@ -32,7 +32,7 @@ Open folder. Open file. Open Integrated Terminal using CTRL '. Integrated termin
 If you're using Command Prompt:
 Navigate to the relevant folder using cd command, and run dir to get a list of files in the folder. Any python files in this folder can now be run, by typing python NAME.py and pressing Enter. 
 
-    <i>Note: Any calculations will be outputted in your application. Graphical representation of the data will open in individual windows, which you must close to move onto the next graph. Please ensure you close the final window to complete the program. </i>
+<i>Note: Any calculations will be outputted in your application. Graphical representation of the data will open in individual windows, which you must close to move onto the next graph. Please ensure you close the final window to complete the program. </i>
 
 * **Calculations.py -** Calculates the max value, min value, range, interquartile range, mean, median, mode, standard deviation and variance for each of the four measurements in the Iris Dataset. This program will list calculations in your application. 
 * **Hist.py -** This program will display the distribution of the four measurements in the Iris Dataset. There are 8 graphs in total. Graphs 5 - 8 display this data along the same intervals of the x and y axes. 
