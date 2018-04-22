@@ -24,8 +24,6 @@ pl.scatter(firstcol, seccol, s = 20, color = 'dimgrey', marker='8')
 pl.title('Sepal Length vs. Sepal Width')
 pl.xlabel('Sepal Length')
 pl.ylabel('Sepal Width')
-pl.yticks([0, 0.5, 1, 1.5,  2, 2.5, 3, 3.5, 4, 4.5])
-pl.xticks([0, 1, 2, 3,  4, 5, 6, 7])
 #Plotting the line of best fit
 pl.plot(np.unique(firstcol), np.poly1d(np.polyfit(firstcol, seccol, 1))(np.unique(firstcol)), color = 'salmon')
 #Code from https://stackoverflow.com/questions/22239691/code-for-line-of-best-fit-of-a-scatter-plot-in-python
@@ -49,7 +47,6 @@ pl.scatter(thirdcol,fourcol, s=20, color='dimgrey', marker = '8')
 pl.title('Petal Length vs. Petal Width')
 pl.xlabel('Petal Length')
 pl.ylabel('Petal Width')
-pl.xticks([0, 1, 2, 3,  4, 5, 6, 7])
 #Plotting the line of best fit
 pl.plot(np.unique(thirdcol), np.poly1d(np.polyfit(thirdcol, fourcol, 1))(np.unique(thirdcol)), color = 'salmon')
 #Determining Correlations: calculating r value, r squared, m(slope) and p value
@@ -70,7 +67,6 @@ pl.scatter(seccol, fourcol, s = 20, color = 'dimgrey', marker = '8')
 pl.title('Sepal Width vs.Petal Width')
 pl.xlabel('Sepal Width')
 pl.ylabel('Petal Width')
-pl.xticks([0, 0.5, 1, 1.5,  2, 2.5, 3, 3.5, 4, 4.5])
 #Plotting the line of best fit
 pl.plot(np.unique(seccol), np.poly1d(np.polyfit(seccol, fourcol, 1))(np.unique(seccol)), color = 'salmon')
 #Determining Correlations: calculating r value, r squared, m(slope) and p value
@@ -91,8 +87,6 @@ pl.scatter(firstcol, thirdcol, s = 20, color='dimgrey', marker = '8')
 pl.title('Sepal Length vs.Petal Length')
 pl.xlabel('Sepal Length')
 pl.ylabel('Petal Length')
-pl.xticks([0, 1, 2, 3,  4, 5, 6, 7, 8])
-pl.yticks([0, 1, 2, 3,  4, 5, 6, 7, 8])
 #Plotting the line of best fit
 pl.plot(np.unique(firstcol), np.poly1d(np.polyfit(firstcol, thirdcol, 1))(np.unique(firstcol)), color = 'salmon')
 #Determining Correlations: calculating r value, r squared, m(slope) and p value
@@ -113,8 +107,6 @@ pl.scatter(firstcol, fourcol, s = 20, color='dimgrey', marker = '8')
 pl.title('Sepal Length vs.Petal Width')
 pl.xlabel('Sepal Length')
 pl.ylabel('Petal Width')
-pl.xticks([0, 1, 2, 3,  4, 5, 6, 7, 8])
-pl.yticks([0, 1, 2, 3,  4, 5, 6, 7, 8])
 #Plotting the line of best fit
 pl.plot(np.unique(firstcol), np.poly1d(np.polyfit(firstcol, fourcol, 1))(np.unique(firstcol)), color = 'salmon')
 #Determining Correlations: calculating r value, r squared, m(slope) and p value
@@ -135,8 +127,6 @@ pl.scatter(seccol, thirdcol, s = 20, color='dimgrey', marker = '8')
 pl.title('Sepal Width vs.Petal Length')
 pl.xlabel('Sepal Width')
 pl.ylabel('Petal Length')
-pl.xticks([0, 1, 2, 3,  4, 5, 6, 7, 8])
-pl.yticks([0, 1, 2, 3,  4, 5, 6, 7, 8])
 #Plotting the line of best fit
 pl.plot(np.unique(seccol), np.poly1d(np.polyfit(seccol, thirdcol, 1))(np.unique(seccol)), color = 'salmon')
 #Determining Correlations: calculating r value, r squared, m(slope) and p value
