@@ -100,9 +100,10 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
  </table>
  
 <h3>Correlation</h3>
-<table><col width=100%>
+<table>
  <tr>
-  <th>Sepal Length vs. Sepal Width</th>
+  <th colspan=3>Sepal Length vs. Sepal Width</th>
+ </tr><tr>
    <td><img src='img/scatter1.png'></td>
    <td><img src='img/updtsubplot1.png'></td>
   <td><b>Slope of the line of best fit:</b> -0.0573<br>
@@ -110,7 +111,8 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
        <b>R&sup2 Value:</b> 0.012<br>
        <b>P Value:</b> 0.1827652153</td></tr>
  <tr>
-  <th>Petal Length vs.Petal Width</th>
+  <th colspan=3>Petal Length vs.Petal Width</th></tr>
+ <tr>
    <td><img src='img/scatter2.png'></td>
    <td><img src='img/updtsubplot2.png'></td>
   <td><b>Slope of the line of best fit:</b> 0.4164<br>
@@ -118,7 +120,8 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
    <b>R&sup2 Value: </b>0.9269<br>
    <b>P Value:</b> 0.0, to 10dp</b></td></tr>
  <tr>
-  <th>Sepal Width vs. Petal Width</th>
+  <th colspan=3>Sepal Width vs. Petal Width</th></tr>
+  <tr>
    <td><img src='img/scatter3.png'></td>
    <td><img src='img/updtsubplot3.png'></td>
   <td><b>Slope of the line of best fit: </b>-0.6275<br>
@@ -126,7 +129,8 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
        <b>R&sup2 Value:</b> 0.1271<br>
        <b>P Value:</b> 0.0000075239</td></tr>
  <tr>
-  <th>Sepal Length vs. Petal Length </th>
+  <thcolspan=3>Sepal Length vs. Petal Length </th></tr>
+  <tr>
    <td><img src='img/scatter4.png'></td>
    <td><img src='img/updtsubplot4.png'></td>
   <td><b>Slope of the line of best fit:</b> 1.8575<br>
@@ -134,7 +138,8 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
     <b>R&sup2 Value:</b> 0.76<br>
     <b>P Value:</b> 0.0, to 10dp</td></tr>
    <tr>
-  <th>Sepal Length vs. Petal Width </th>
+  <th colspan=3>Sepal Length vs. Petal Width </th></tr>
+  <tr>
    <td><img src='img/scatter5.png'></td>
    <td><img src='img/updtsubplot5.png'></td>
     <td><b>Slope of the line of best fit:</b> 0.7538<br>
@@ -142,7 +147,8 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
      <b>R&sup2 Value: </b>0.669<br>
      <b>P Value:</b> 0.0, to 10dp</td></tr>
    <tr>
-  <th>Sepal Width vs. Petal Length </th>
+  <th colspan=3>Sepal Width vs. Petal Length </th></tr>
+  <tr>
    <td><img src='img/scatter6.png'></td>
    <td><img src='img/updtsubplot6.png'></td>
     <td><b>Slope of the line of best fit:</b> -1.7112<br>
