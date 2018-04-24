@@ -105,9 +105,9 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
  <tr>
    <td><img src='img/scatter1.png'></td>
    <td><img src='img/updtsubplot1.png'></td>
-  <td><b>Slope of the line of best fit:</b> -0.0573<br>
+  <td width = 30%><b>Slope of the best fit line:</b> -0.0573<br>
     <b>Y-intercept:</b> 3.38863737949<br>
-    <b>Equation:</b>y = -0.06  +  3.39  x <br>
+    <b>Equation:</b> y = -0.06  +  3.39x <br>
     <b>R Value:</b> -0.1094<br>
        <b>R&sup2 Value:</b> 0.012<br>
        <b>P Value:</b> 0.1827652153</td></tr>
@@ -116,9 +116,9 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
  <tr>
    <td><img src='img/scatter2.png'></td>
    <td><img src='img/updtsubplot2.png'></td>
-  <td><b>Slope of the line of best fit:</b> 0.4164<br>
-   <b>Y-intercept:</b>-0.366514045217<br>
-   <b>Equation: </b> y = 0.42  +  -0.37  x <br>
+  <td width = 30%><b>Slope of the best fit line:</b> 0.4164<br>
+   <b>Y-intercept:</b> -0.36651404521<br>
+   <b>Equation:</b> y = 0.42  +  -0.37x <br>
    <b>R Value: </b>0.9628<br>
    <b>R&sup2 Value: </b>0.9269<br>
    <b>P Value:</b> 0.0, to 10dp</b></td></tr>
@@ -127,20 +127,20 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
   <tr>
    <td><img src='img/scatter3.png'></td>
    <td><img src='img/updtsubplot3.png'></td>
-  <td><b>Slope of the line of best fit: </b>-0.6275<br>
-   <b>Y-intercept:</b>3.1151926871<br>
-   <b>Equation:</b>y = -0.63  +  3.12  x <br>
+  <td width = 30%><b>Slope of the best fit line:</b> -0.6275<br>
+   <b>Y-intercept:</b> 3.115192687<br>
+   <b>Equation:</b>y = -0.63  +  3.12x <br>
       <b>R Value:</b> -0.3565<br>
        <b>R&sup2 Value:</b> 0.1271<br>
        <b>P Value:</b> 0.0000075239</td></tr>
  <tr>
-  <thcolspan=3>Sepal Length vs. Petal Length </th></tr>
+  <th colspan=3>Sepal Length vs. Petal Length </th></tr>
   <tr>
    <td><img src='img/scatter4.png'></td>
    <td><img src='img/updtsubplot4.png'></td>
-  <td><b>Slope of the line of best fit:</b> 1.8575<br>
-   <b>Y-intercept:</b>-7.09538147828<br>
-   <b>Equation: </b> y = 1.86  +  -7.10  x<br>
+  <td width = 30%><b>Slope of the best fit line:</b> 1.8575<br>
+   <b>Y-intercept:</b> -7.0953814783<br>
+   <b>Equation:</b> y = 1.86  +  -7.10x<br>
     <b>R Value:</b> 0.8718<br>
     <b>R&sup2 Value:</b> 0.76<br>
     <b>P Value:</b> 0.0, to 10dp</td></tr>
@@ -149,9 +149,9 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
   <tr>
    <td><img src='img/scatter5.png'></td>
    <td><img src='img/updtsubplot5.png'></td>
-    <td><b>Slope of the line of best fit:</b> 0.7538<br>
-          <b>Y-intercept:</b> -3.20627689597<br>
-     <b>Equation: </b>y = 0.75  +  -3.21  x<br>
+    <td width = 30%><b>Slope of the best fit line:</b> 0.7538<br>
+          <b>Y-intercept:</b> -3.2062768960<br>
+     <b>Equation:</b> y = 0.75  +  -3.21x<br>
      <b>R Value: </b>0.818<br>
      <b>R&sup2 Value: </b>0.669<br>
      <b>P Value:</b> 0.0, to 10dp</td></tr>
@@ -160,9 +160,9 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
    <tr>
    <td><img src='img/scatter6.png'></td>
    <td><img src='img/updtsubplot6.png'></td>
-    <td><b>Slope of the line of best fit:</b> -1.7112<br>
-     <b>Y-intercept:</b>8.98467570546<br>
-     <b>Equation: </b>y = -1.71  +  8.98  x<br>
+    <td width = 30%><b>Slope of the best fit line:</b> -1.7112<br>
+     <b>Y-intercept:</b> 8.98467570546<br>
+     <b>Equation:</b> y = -1.71  +  8.98x<br>
      <b>R Value:</b> -0.4205<br>
      <b>R&sup2 Value:</b> 0.1768<br>
      <b>P Value:</b> 0.0000000843</td></tr>
@@ -174,7 +174,7 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
 
 * P-values indicate that all scatter diagrams except Sepal Length and Sepal Width, have a statistically significant realtionship (p < 0.05).
 
-* Despite having good p-values, some of these sets have low R&sup2 values. These are the Sepal Width vs. Petal Length and Sepal Width vs. Petal Width relationships. This suggests that even though there is a statistically significant relationship, the equations of the line of best fit would not be a good model in these cases. 
+* Despite having good p-values, some of these sets have low r-squared values. These are the Sepal Width vs. Petal Length and Sepal Width vs. Petal Width relationships. This suggests that even though there is a statistically significant relationship, the equations of the line of best fit would not be a good model in these cases. 
 
 ## References
 * Fisher, R.A. [The use of multiple measurements in taxonomic problems.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x)Annals of Eugenics. 7 (2): 179–188. (1936) Accessed on 10/04/2018.
