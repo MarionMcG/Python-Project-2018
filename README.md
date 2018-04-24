@@ -100,13 +100,14 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
  </table>
  
 <h3>Correlation</h3>
-<table>
+<table><tr>
+  <th colspan=3>Sepal Length vs. Sepal Width</th></tr>
  <tr>
-  <th colspan=3>Sepal Length vs. Sepal Width</th>
- </tr><tr>
    <td><img src='img/scatter1.png'></td>
    <td><img src='img/updtsubplot1.png'></td>
   <td><b>Slope of the line of best fit:</b> -0.0573<br>
+    <b>Y-intercept:</b> 3.38863737949<br>
+    <b>Equation:</b>y = -0.06  +  3.39  x <br>
     <b>R Value:</b> -0.1094<br>
        <b>R&sup2 Value:</b> 0.012<br>
        <b>P Value:</b> 0.1827652153</td></tr>
@@ -116,6 +117,8 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
    <td><img src='img/scatter2.png'></td>
    <td><img src='img/updtsubplot2.png'></td>
   <td><b>Slope of the line of best fit:</b> 0.4164<br>
+   <b>Y-intercept:</b>-0.366514045217<br>
+   <b>Equation: </b> y = 0.42  +  -0.37  x <br>
    <b>R Value: </b>0.9628<br>
    <b>R&sup2 Value: </b>0.9269<br>
    <b>P Value:</b> 0.0, to 10dp</b></td></tr>
@@ -125,6 +128,8 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
    <td><img src='img/scatter3.png'></td>
    <td><img src='img/updtsubplot3.png'></td>
   <td><b>Slope of the line of best fit: </b>-0.6275<br>
+   <b>Y-intercept:</b>3.1151926871<br>
+   <b>Equation:</b>y = -0.63  +  3.12  x <br>
       <b>R Value:</b> -0.3565<br>
        <b>R&sup2 Value:</b> 0.1271<br>
        <b>P Value:</b> 0.0000075239</td></tr>
@@ -134,6 +139,8 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
    <td><img src='img/scatter4.png'></td>
    <td><img src='img/updtsubplot4.png'></td>
   <td><b>Slope of the line of best fit:</b> 1.8575<br>
+   <b>Y-intercept:</b>-7.09538147828<br>
+   <b>Equation: </b> y = 1.86  +  -7.10  x<br>
     <b>R Value:</b> 0.8718<br>
     <b>R&sup2 Value:</b> 0.76<br>
     <b>P Value:</b> 0.0, to 10dp</td></tr>
@@ -143,19 +150,24 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
    <td><img src='img/scatter5.png'></td>
    <td><img src='img/updtsubplot5.png'></td>
     <td><b>Slope of the line of best fit:</b> 0.7538<br>
+          <b>Y-intercept:</b> -3.20627689597<br>
+     <b>Equation: </b>y = 0.75  +  -3.21  x<br>
      <b>R Value: </b>0.818<br>
      <b>R&sup2 Value: </b>0.669<br>
      <b>P Value:</b> 0.0, to 10dp</td></tr>
    <tr>
   <th colspan=3>Sepal Width vs. Petal Length </th></tr>
-  <tr>
+   <tr>
    <td><img src='img/scatter6.png'></td>
    <td><img src='img/updtsubplot6.png'></td>
     <td><b>Slope of the line of best fit:</b> -1.7112<br>
+     <b>Y-intercept:</b>8.98467570546<br>
+     <b>Equation: </b>y = -1.71  +  8.98  x<br>
      <b>R Value:</b> -0.4205<br>
      <b>R&sup2 Value:</b> 0.1768<br>
      <b>P Value:</b> 0.0000000843</td></tr>
  </table>
+ 
  <h3> Summary</h3>
 
 * The most statistiallly significant correlation is between Petal Length and Petal width measurements. These measurements provide the highest correlation coefficient (0.9628) and the highest r-squared value (0.9269). The p-value, also indicates that the probability of no relationship between these variables is 5.78 x 10^-86, which I rounded to zero above. 
