@@ -171,6 +171,9 @@ When running this program, the relevant calculations will appear in your applica
  </table>
  
  <h3> Summary</h3>
+* Petal Length is the most spread out measurement with the highest range, IQR and standard deviation. The length varies from 1cm to 6.9cm in this set of data. The wide range of values and presence of outliers, resulted in 3 very different mmeasures of central tendency. (Mean 3.8, Median 4.4 and Mode 1.5)
+
+* Sepal Width and Petal Width both share the smallest range value of 2.4. Sepal Width is more effected by outliers, with an IQR of 0.5. Meanwhile the IQR of Petal WIdth is 1.5, reflecting the greater range of values in that set. 
 
 * The most statistiallly significant correlation is between Petal Length and Petal width measurements. These measurements provide the highest correlation coefficient (0.9628) and the highest r-squared value (0.9269). The p-value, also indicates that the probability of no relationship between these variables is 5.78 x 10^-86, which I rounded to zero above. 
 
