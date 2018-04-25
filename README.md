@@ -175,6 +175,8 @@ When running this program, the relevant calculations will appear in your applica
 
 * Sepal Width and Petal Width both share the smallest range value of 2.4. Sepal Width is more effected by outliers, with an IQR of 0.5. Meanwhile the IQR of Petal WIdth is 1.5, reflecting the greater range of values in that set. 
 
+* THe variation across the four measurements is quite likely to be due to the variation acorss species. 
+
 * The most statistiallly significant correlation is between Petal Length and Petal width measurements. These measurements provide the highest correlation coefficient (0.9628) and the highest r-squared value (0.9269). The p-value, also indicates that the probability of no relationship between these variables is 5.78 x 10^-86, which I rounded to zero above. 
 
 * P-values indicate that all scatter diagrams except Sepal Length and Sepal Width, have a statistically significant realtionship (p < 0.05).
