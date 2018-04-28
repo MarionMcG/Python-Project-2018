@@ -104,16 +104,24 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
 
 * Sepal Width and Petal Width both share the smallest range value of 2.4. Sepal Width is more effected by outliers, with an IQR of 0.5. Meanwhile the IQR of Petal Width is 1.5, reflecting the greater range of values in that set. 
 
-* The variation across the four measurements is quite likely to be due to the variation acorss species. Using subplots to plot these measurements according to species appears to verify this. 
+* The variation across the four measurements is quite likely to be due to the variation across species. Using subplots to plot these measurements according to species appears to verify this. 
 
 <table>
-<tr>
-  <td><img src = 'img/2hist1.png' style ='margin:auto;'></td>
-  <td><img src = 'img/2hist2.png' align = 'middle'></td></tr>
   <tr>
-  <td><img src = 'img/2hist3.png' align = 'middle'></td>
-  <td><img src = 'img/2hist4.png' align = 'middle'></td></tr>
+  <th>Sepal Length</th>
+  <th>Sepal Width</th>
+  <th>Petal Length</th>
+  <th>Petal Width</th></tr>
+ <tr>
+<tr>
+  <td><img src = 'img/2hist1.png'></td>
+  <td><img src = 'img/2hist2.png'></td>
+  <td><img src = 'img/2hist3.png'></td>
+  <td><img src = 'img/2hist4.png'></td></tr>
 </table>
+
+* Petal Length and Petal Width measurements appear to provide the most clear differences between species. Setosa has length less than 2 cm and width less than 1cm.  Virginica has length between 4.5 and 7cm and width between 1.5 and 2.5cm approximately. Versicolor has length between 3 and 5cm and width between 1 and 2cm. While there is some overlap bettwen Virginica and Versicolor, these measurements could form the basis for identifying species from measurements.
+
 <h3>Correlation</h3>
 <table><tr>
   <th colspan=3>Sepal Length vs. Sepal Width</th></tr>
@@ -191,8 +199,6 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
 
 * While data scientists often employ different methods of linear regression than I did here, they often arrive at very similar equations to model the relationship between measurements. Comparing my work to theirs allowed me to identify a very simple mathematical error in my own calculations. 
 
-* Petal Length and Petal Width measurements appear to provide the most clear differences between species. Setosa has length less than 2 cm and width less than 1cm.  Virginica has length between 4.5 and 7cm and width between 1.5 and 2.5cm approximately. Versicolor has length between 3 and 5cm and width between 1 and 2cm. While there is some overlap bettwen Virginica and Versicolor, these measurements could form the basis for identifying species from measurements. 
-
 ## Further plans
 
 During my analysis of the Iris Dataset, I tried to avoid analysis conducted by data scientists to avoid their work influencing my own. My intial plan to plot the data on scatter diagrams was heavily influenced by the grahical representations of this data on Wikipedia. 
@@ -200,8 +206,8 @@ During my analysis of the Iris Dataset, I tried to avoid analysis conducted by d
 This approach helped me to appreciate the importance of using programming languages like Python to conduct data analysis. My own analysis identified errors in P.S. Hoey's mathematical analysis of this set, including an incorrectly identified minimum value. 
 
 Following the completion of my own analysis, I consulted analysis of the dataset conducted by data scientists. 
-* Many data scientists use methods of linear regression different to the one I used. I hope to gain a better understanding of linear regression and apply it to this dataset in the future.
-* Many data scientist used methods I'm unfamiliar with to classify a species using it's measurements and the pre-existing Iris data in this set. I would like to understand clustering methods better and apply those to this set. 
+* Many data scientists use methods of linear regression different to the one I used. I hope to gain a better understanding of linear regression that might be more effective than the line of best fit equation. 
+* Many data scientists used methods I'm unfamiliar with to classify a species using it's measurements and the pre-existing Iris data in this set. I would like to understand clustering methods and the applications used to create predictive models, and apply those to this set. 
 
 ## References
 * Fisher, R.A. [The use of multiple measurements in taxonomic problems.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x)Annals of Eugenics. 7 (2): 179–188. (1936) Accessed on 10/04/2018.
