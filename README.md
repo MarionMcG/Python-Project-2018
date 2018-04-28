@@ -108,13 +108,11 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
 
 <table>
 <tr>
-  <td><img src = 'img/2hist1.png' align = 'center'></td></tr>
+  <td><img src = 'img/2hist1.png' style ='margin:auto;'></td>
+  <td><img src = 'img/2hist2.png' align = 'middle'></td></tr>
   <tr>
-  <td><img src = 'img/2hist2.png' align = 'center'></td></tr>
-  <tr>
-  <td><img src = 'img/2hist3.png' align = 'center'></td></tr>
-  <tr>
-  <td><img src = 'img/2hist4.png' align = 'center'></td></tr>
+  <td><img src = 'img/2hist3.png' align = 'middle'></td>
+  <td><img src = 'img/2hist4.png' align = 'middle'></td></tr>
 </table>
 <h3>Correlation</h3>
 <table><tr>
