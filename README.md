@@ -124,7 +124,7 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
    <td><img src='img/updtsubplot1.png'></td>
   <td width = 30%><b>Slope of the best fit line:</b> -0.0573<br>
     <b>Y-intercept:</b> 3.38863737949<br>
-    <b>Equation:</b> y = -0.06  +  3.39x <br>
+    <b>Equation:</b> y = 3.39  -  0.06x <br>
     <b>R Value:</b> -0.1094<br>
     <b>R&sup2 Value:</b> 0.012<br>
     <b>P Value:</b> 0.1827652153</td></tr>
@@ -135,7 +135,7 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
    <td><img src='img/updtsubplot2.png'></td>
   <td width = 30%><b>Slope of the best fit line:</b> 0.4164<br>
    <b>Y-intercept:</b> -0.36651404521<br>
-   <b>Equation:</b> y = 0.42  +  -0.37x <br>
+   <b>Equation:</b> y = -0.37  +  0.42x <br>
    <b>R Value: </b>0.9628<br>
    <b>R&sup2 Value: </b>0.9269<br>
    <b>P Value:</b> 0.0, to 10dp</b></td></tr>
@@ -146,7 +146,7 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
    <td><img src='img/updtsubplot3.png'></td>
   <td width = 30%><b>Slope of the best fit line:</b> -0.6275<br>
    <b>Y-intercept:</b> 3.115192687<br>
-   <b>Equation:</b>y = -0.63  +  3.12x <br>
+   <b>Equation:</b>y = 3.12  -  0.63x <br>
    <b>R Value:</b> -0.3565<br>
    <b>R&sup2 Value:</b> 0.1271<br>
    <b>P Value:</b> 0.0000075239</td></tr>
@@ -157,7 +157,7 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
    <td><img src='img/updtsubplot4.png'></td>
   <td width = 30%><b>Slope of the best fit line:</b> 1.8575<br>
    <b>Y-intercept:</b> -7.0953814783<br>
-   <b>Equation:</b> y = 1.86  +  -7.10x<br>
+   <b>Equation:</b> y = -7.10  +  1.86x<br>
    <b>R Value:</b> 0.8718<br>
    <b>R&sup2 Value:</b> 0.76<br>
    <b>P Value:</b> 0.0, to 10dp</td></tr>
@@ -168,7 +168,7 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
    <td><img src='img/updtsubplot5.png'></td>
     <td width = 30%><b>Slope of the best fit line:</b> 0.7538<br>
           <b>Y-intercept:</b> -3.2062768960<br>
-     <b>Equation:</b> y = 0.75  +  -3.21x<br>
+     <b>Equation:</b> y = -3.21  +  0.75x<br>
      <b>R Value: </b>0.818<br>
      <b>R&sup2 Value: </b>0.669<br>
      <b>P Value:</b> 0.0, to 10dp</td></tr>
@@ -179,7 +179,7 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
    <td><img src='img/updtsubplot6.png'></td>
     <td width = 30%><b>Slope of the best fit line:</b> -1.7112<br>
      <b>Y-intercept:</b> 8.98467570546<br>
-     <b>Equation:</b> y = -1.71  +  8.98x<br>
+     <b>Equation:</b> y = 8.98  -  1.71x<br>
      <b>R Value:</b> -0.4205<br>
      <b>R&sup2 Value:</b> 0.1768<br>
      <b>P Value:</b> 0.0000000843</td></tr>
@@ -190,6 +190,8 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
 * P-values indicate that all scatter diagrams except Sepal Length and Sepal Width, have a statistically significant realtionship (p < 0.05).
 
 * Despite having good p-values, some of these sets have low r-squared values. These are the Sepal Width vs. Petal Length and Sepal Width vs. Petal Width relationships. This suggests that even though there is a statistically significant relationship, the equations of the line of best fit would not be a good model in these cases.
+
+* While data scientists often employ different methods of linear regression than I did here, they often arrive at very similar equations to model the relationship between measurements. Comparing my work to their allowed me to identify a very simple mathematical error in my own calculations. 
 
 * Petal Length and Petal Width measurements appear to provide the most clear differences between species. Setosa has length less than 2 cm and width less than 1cm.  Virginica has length between 4.5 and 7cm and width between 1.5 and 2.5cm approximately. Versicolor has length between 3 and 5cm and width between 1 and 2cm. While there is some overlap bettwen Virginica and Versicolor, these measurements could form the basis for identifying species from measurements. 
 
@@ -209,3 +211,4 @@ Following the completion of my own analysis, I consulted analysis of the dataset
 * Cock, Peter. [Linear Regressions and Linear Models using the Iris Data](https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/r/iris_lm/) Accessed 28/04/2018.
 * Hoey, Patrick S. [Statistical Analysis of the Iris Flower Dataset](http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf). University of Massachusetts At Lowell. Accessed on 10/04/2018.
 * [The Iris flower data set](https://en.wikipedia.org/wiki/Iris_flower_data_set), Wikipedia. Accessed on 10/04/2018.
+* [Simple Linear Regression Demo](https://rstudio-pubs-static.s3.amazonaws.com/304864_413b4745f10d46fab1adfff38333dd1c.html) Accessed 28/04/2018.
