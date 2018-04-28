@@ -207,13 +207,13 @@ This approach helped me to appreciate the importance of using programming langua
 
 Following the completion of my own analysis, I consulted analysis of the dataset conducted by data scientists. 
 * Many data scientists use methods of linear regression different to the one I used. I hope to gain a better understanding of linear regression that might be more effective than the line of best fit equation. 
-* Many data scientists used methods I'm unfamiliar with to classify a species using it's measurements and the pre-existing Iris data in this set. I would like to understand clustering methods and the applications used to create predictive models, and apply those to this set. 
+* Many data scientists used methods I'm unfamiliar with to classify a iris using it's measurements and the pre-existing Iris data in this set. I would like to understand clustering methods and the applications used to create predictive models, and apply those to this set. 
 
 ## References
 * Fisher, R.A. [The use of multiple measurements in taxonomic problems.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x)Annals of Eugenics. 7 (2): 179–188. (1936) Accessed on 10/04/2018.
 * Cock, Peter. [Linear Regressions and Linear Models using the Iris Data](https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/r/iris_lm/) Accessed 28/04/2018.
 * Ghosh, Sourav. [Clustering Practise with the Iris Dataset](https://www.kaggle.com/meetsourav/clustering-with-iris-dataset) Accessed 28/04/2018.
 * Hoey, Patrick S. [Statistical Analysis of the Iris Flower Dataset](http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf). University of Massachusetts At Lowell. Accessed on 10/04/2018.
-* Santos, Rafael. [Data Science Example: Iris Data Set] (http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP394/WholeStory-Iris.html) Accessed 28/04/2017. 
+* Santos, Rafael. [Data Science Example: Iris Data Set](http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP394/WholeStory-Iris.html) Accessed 28/04/2017. 
 * [The Iris flower data set](https://en.wikipedia.org/wiki/Iris_flower_data_set), Wikipedia. Accessed on 10/04/2018.
 * [Simple Linear Regression Demo](https://rstudio-pubs-static.s3.amazonaws.com/304864_413b4745f10d46fab1adfff38333dd1c.html) Accessed 28/04/2018.
