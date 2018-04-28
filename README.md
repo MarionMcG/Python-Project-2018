@@ -189,7 +189,9 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
 
 * P-values indicate that all scatter diagrams except Sepal Length and Sepal Width, have a statistically significant realtionship (p < 0.05).
 
-* Despite having good p-values, some of these sets have low r-squared values. These are the Sepal Width vs. Petal Length and Sepal Width vs. Petal Width relationships. This suggests that even though there is a statistically significant relationship, the equations of the line of best fit would not be a good model in these cases. 
+* Despite having good p-values, some of these sets have low r-squared values. These are the Sepal Width vs. Petal Length and Sepal Width vs. Petal Width relationships. This suggests that even though there is a statistically significant relationship, the equations of the line of best fit would not be a good model in these cases.
+
+* Petal Length and Petal Width measurements appear to provide the most clear differences between species. Setosa has length less than 2 cm and width less than 1cm.  Virginica has length between 4.5 and 7cm and width between 1.5 and 2.5cm approximately. Versicolor has length between 3 and 5cm and width between 1 and 2cm. While there is some overlap bettwen Virginica and Versicolor, these measurements could form the basis for identifying species from measurements. 
 
 ## Further plans
 
@@ -198,8 +200,12 @@ During my analysis of the Iris Dataset, I tried to avoid analysis conducted by d
 This approach helped me to appreciate the importance of using programming languages like Python to conduct data analysis. My own analysis identified errors in P.S. Hoey's mathematical analysis of this set, including an incorrectly identified minimum value. 
 
 Following the completion of my own analysis, I consulted analysis of the dataset conducted by data scientists. 
+* Many data scientists use methods of linear regression different to the one I used. I hope to gain a better understanding of linear regression and apply it to this dataset in the future.
+
+
 
 ## References
 * Fisher, R.A. [The use of multiple measurements in taxonomic problems.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x)Annals of Eugenics. 7 (2): 179–188. (1936) Accessed on 10/04/2018.
+* Cock, Peter. [Linear Regressions and Linear Models using the Iris Data](https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/r/iris_lm/) Accessed 28/04/2018.
 * Hoey, Patrick S. [Statistical Analysis of the Iris Flower Dataset](http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf). University of Massachusetts At Lowell. Accessed on 10/04/2018.
 * [The Iris flower data set](https://en.wikipedia.org/wiki/Iris_flower_data_set), Wikipedia. Accessed on 10/04/2018.
