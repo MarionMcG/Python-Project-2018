@@ -11,7 +11,7 @@ My aim in analyzing the Iris Dataset is to determine if there is any relationshi
 
 I intend to:
   * Calculate various measures of central tendency and spread for the four measurements in my dataset.
-  * Compare pairs of measurements on scatter diagrams to determine if there is any relationship between them, and calculating the correlation coefficient. 
+  * Compare pairs of measurements on scatter diagrams to determine if there is any relationship between them, and calculate the correlation coefficient. 
   * Compare pairs of measurements on scatter diagrams, differentiated by species. 
 
 As this is my first statistical analysis project, I did not have any concrete goals in mind, beyond determining correlation. As I worked my way through this project, I understood the limitations of my initial plan and expanded upon it. 
@@ -21,7 +21,7 @@ As this is my first statistical analysis project, I did not have any concrete go
   * I then viewed these distributions along the same intervals of the x and y axes.
 * After running my program Scatter.py, it was clear that petal length and petal width correlate strongly. I began to consider if it would be possible to get an equation for length with respect to width. So,
   * I calculated r squared and p values to get a bettter indication of correlation. 
-  * I got the slope of the line of best fit, and used the slope y-intercept methodd to find its equation.  
+  * I got the slope of the line of best fit, and used the slope y-intercept method to find its equation.  
 
 ## How to Run my Code
 Clone or download this repository to the desired directory of your machine. You can now open each program in Visual Studio Code or run from command prompt, if and only if, Python is in your PATH. 
@@ -36,9 +36,8 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
 
 * **Calculations.py -** Calculates the max value, min value, range, interquartile range, mean, median, mode, standard deviation and variance for each of the four measurements in the Iris Dataset. This program will list calculations in your application. 
 * **Hist.py -** This program will display the distribution of the four measurements in the Iris Dataset. There are 8 graphs in total. Graphs 5 - 8 display this data along the same intervals of the x and y axes. 
-* **Scatter1.py -** This program displays 6 scatter graphs combining the measurements from the Iris Dataset.On each graph the line of best fit is also plotted. This program will output the slope, y-intercept and equation of the lines of best fit. It also prints calculations related to correlation: the correlation co-efficient, r squared value, and p value. 
-
-When running this program, the relevant calculations will appear in your application when the image of the corresponding scatter diagram opens. Please close that window to move onto the next scatter diagram and it's calculations.
+* **Hist2.py -** This program will display the four measurments on 3 different subplots in order to compare the distribution of species. There are 4 graphs in total.
+* **Scatter1.py -** This program displays 6 scatter graphs combining the measurements from the Iris Dataset.On each graph the line of best fit is also plotted. This program will output the slope, y-intercept and equation of the lines of best fit. It also prints calculations related to correlation: the correlation co-efficient, r squared value, and p value. <br> When running this program, the relevant calculations will appear in your application when the image of the corresponding scatter diagram opens. Please close that window to move onto the next scatter diagram and it's calculations.
 * **Scatter2.py -** This program displays the same 6 scatter diagrams as scatter1.py, but these are colored to distinguish between species. 
 
 ## My Analysis of the Iris Dataset
@@ -103,19 +102,19 @@ When running this program, the relevant calculations will appear in your applica
 
 * Petal Length is the most spread out measurement with the highest range, IQR and standard deviation. The length varies from 1cm to 6.9cm in this set of data. The wide range of values and presence of outliers, resulted in 3 very different mmeasures of central tendency. (Mean 3.8, Median 4.4 and Mode 1.5)
 
-* Sepal Width and Petal Width both share the smallest range value of 2.4. Sepal Width is more effected by outliers, with an IQR of 0.5. Meanwhile the IQR of Petal WIdth is 1.5, reflecting the greater range of values in that set. 
+* Sepal Width and Petal Width both share the smallest range value of 2.4. Sepal Width is more effected by outliers, with an IQR of 0.5. Meanwhile the IQR of Petal Width is 1.5, reflecting the greater range of values in that set. 
 
 * The variation across the four measurements is quite likely to be due to the variation acorss species. Using subplots to plot these measurements according to species appears to verify this. 
- 
+
 <table>
 <tr>
-  <td><img src = 'img/2hist1.png'></td></tr>
+  <td><img src = 'img/2hist1.png' align = 'center'></td></tr>
   <tr>
-  <td><img src = 'img/2hist2.png'></td></tr>
+  <td><img src = 'img/2hist2.png' align = 'center'></td></tr>
   <tr>
-  <td><img src = 'img/2hist3.png'></td></tr>
+  <td><img src = 'img/2hist3.png' align = 'center'></td></tr>
   <tr>
-  <td><img src = 'img/2hist4.png'></td></tr>
+  <td><img src = 'img/2hist4.png' align = 'center'></td></tr>
 </table>
 <h3>Correlation</h3>
 <table><tr>
@@ -127,8 +126,8 @@ When running this program, the relevant calculations will appear in your applica
     <b>Y-intercept:</b> 3.38863737949<br>
     <b>Equation:</b> y = -0.06  +  3.39x <br>
     <b>R Value:</b> -0.1094<br>
-       <b>R&sup2 Value:</b> 0.012<br>
-       <b>P Value:</b> 0.1827652153</td></tr>
+    <b>R&sup2 Value:</b> 0.012<br>
+    <b>P Value:</b> 0.1827652153</td></tr>
  <tr>
   <th colspan=3>Petal Length vs.Petal Width</th></tr>
  <tr>
@@ -148,9 +147,9 @@ When running this program, the relevant calculations will appear in your applica
   <td width = 30%><b>Slope of the best fit line:</b> -0.6275<br>
    <b>Y-intercept:</b> 3.115192687<br>
    <b>Equation:</b>y = -0.63  +  3.12x <br>
-      <b>R Value:</b> -0.3565<br>
-       <b>R&sup2 Value:</b> 0.1271<br>
-       <b>P Value:</b> 0.0000075239</td></tr>
+   <b>R Value:</b> -0.3565<br>
+   <b>R&sup2 Value:</b> 0.1271<br>
+   <b>P Value:</b> 0.0000075239</td></tr>
  <tr>
   <th colspan=3>Sepal Length vs. Petal Length </th></tr>
   <tr>
@@ -159,9 +158,9 @@ When running this program, the relevant calculations will appear in your applica
   <td width = 30%><b>Slope of the best fit line:</b> 1.8575<br>
    <b>Y-intercept:</b> -7.0953814783<br>
    <b>Equation:</b> y = 1.86  +  -7.10x<br>
-    <b>R Value:</b> 0.8718<br>
-    <b>R&sup2 Value:</b> 0.76<br>
-    <b>P Value:</b> 0.0, to 10dp</td></tr>
+   <b>R Value:</b> 0.8718<br>
+   <b>R&sup2 Value:</b> 0.76<br>
+   <b>P Value:</b> 0.0, to 10dp</td></tr>
    <tr>
   <th colspan=3>Sepal Length vs. Petal Width </th></tr>
   <tr>
@@ -191,6 +190,14 @@ When running this program, the relevant calculations will appear in your applica
 * P-values indicate that all scatter diagrams except Sepal Length and Sepal Width, have a statistically significant realtionship (p < 0.05).
 
 * Despite having good p-values, some of these sets have low r-squared values. These are the Sepal Width vs. Petal Length and Sepal Width vs. Petal Width relationships. This suggests that even though there is a statistically significant relationship, the equations of the line of best fit would not be a good model in these cases. 
+
+## Further plans
+
+During my analysis of the Iris Dataset, I tried to avoid analysis conducted by data scientists to avoid their work influencing my own. My intial plan to plot the data on scatter diagrams was heavily influenced by the grahical representations of this data on Wikipedia. 
+
+This approach helped me to appreciate the importance of using programming languages like Python to conduct data analysis. My own analysis identified errors in P.S. Hoey's mathematical analysis of this set, including an incorrectly identified minimum value. 
+
+Following the completion of my own analysis, I consulted analysis of the dataset conducted by data scientists. 
 
 ## References
 * Fisher, R.A. [The use of multiple measurements in taxonomic problems.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x)Annals of Eugenics. 7 (2): 179–188. (1936) Accessed on 10/04/2018.
