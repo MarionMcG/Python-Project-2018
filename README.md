@@ -16,24 +16,12 @@ I intend to:
 
 As this is my first statistical analysis project, I did not have any concrete goals in mind, beyond determining correlation. As I worked my way through this project, I understood the limitations of my initial plan and expanded upon it. 
 
-* After running my program Calculations.py, I realised I needed a graphical representation of distribution for the four measurements. 
-  * I placed data for each measurement into a histogram to get a graph of the distribution. 
-  * I then viewed these distributions along the same intervals of the x and y axes.
-* After running my program Scatter.py, it was clear that petal length and petal width correlate strongly. I began to consider if it would be possible to get an equation for length with respect to width. So,
-  * I calculated r squared and p values to get a bettter indication of correlation. 
-  * I got the slope of the line of best fit, and used the slope y-intercept method to find its equation.  
+* I realised I needed a graphical representation of distribution for the four measurements. 
+  * I placed data for each measurement into a histogram to get a graph of the distribution, along the same intervals of the x and y axes.
+* From my intial investigation, it was clear that petal length and petal width correlate strongly. I began to consider if it would be possible to get an equation that modelled the relationship between variables. So,
+  * I determined the equation of the line of best fit,  and calculated r squared and p values to get a bettter indication of correlation.
 
-## How to Run my Code
-Clone or download this repository to the desired directory of your machine. You can now open each program in Visual Studio Code or run from command prompt, if and only if, Python is in your PATH. 
-
-If using Visual Studio Code:
-Open folder. Open file. Open Integrated Terminal using CTRL '. Integrated terminal may not be open in the relevant directory. In VS Explorer, rightclick on a file in the required folder, and open in command prompt. Not you can run a program called NAME.py, by typing python NAME.py in the integrated terminal and press Enter. 
-
-If you're using Command Prompt:
-Navigate to the relevant folder using cd command, and run dir to get a list of files in the folder. Any python files in this folder can now be run, by typing python NAME.py and pressing Enter. 
-
-<i>Note: Any calculations will be outputted in your application. Graphical representation of the data will open in individual windows, which you must close to move onto the next graph. Please ensure you close the final window to complete the program. </i>
-
+## Python Scripts
 * **Calculations.py -** Calculates the max value, min value, range, interquartile range, mean, median, mode, standard deviation and variance for each of the four measurements in the Iris Dataset. This program will list calculations in your application. 
 * **Hist.py -** This program will display the distribution of the four measurements in the Iris Dataset. There are 8 graphs in total. Graphs 5 - 8 display this data along the same intervals of the x and y axes. 
 * **Hist2.py -** This program will display the four measurments on 3 different subplots in order to compare the distribution of species. There are 4 graphs in total.
@@ -199,9 +187,7 @@ Navigate to the relevant folder using cd command, and run dir to get a list of f
 
 * While data scientists often employ different methods of linear regression than I did here, they often arrive at very similar equations to model the relationship between measurements. Comparing my work to theirs allowed me to identify a very simple mathematical error in my own calculations. 
 
-## Further plans
-
-During my analysis of the Iris Dataset, I tried to avoid analysis conducted by data scientists to avoid their work influencing my own. My intial plan to plot the data on scatter diagrams was heavily influenced by the grahical representations of this data on Wikipedia. 
+## Further plans 
 
 This approach helped me to appreciate the importance of using programming languages like Python to conduct data analysis. My own analysis identified errors in P.S. Hoey's mathematical analysis of this set, including an incorrectly identified minimum value. 
 
